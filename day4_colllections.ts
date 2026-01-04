@@ -61,3 +61,21 @@ id = "A1001";
 id = true;
 
 console.log("Union Type ID:", id);
+
+
+
+// Practice Example 
+ let grade : number[] =[90, 85, 88, 92, 95];
+ console.log("Grades Array:", grade);
+ grade.forEach(grade=>{
+    console.log("Grade:", grade);
+ })
+
+
+ type Employee = [number, string, string?];
+ let emp = [1, "John" , "A"]
+ console.log("Employee Tuple:", emp);
+
+
+
+
